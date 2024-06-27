@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#calculator {
+    background-color: white;
+    border-radius: 0.6rem;
+    padding: 1.25rem;
+    width: 21.7rem;
+}
+
+#inputBox {
+    width: 90%;
+    height: 4rem;
+    text-align: right;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid #606060;
+    border-radius: 0.3rem;
+}
+
+button {
+    width: 4.4rem;
+    height: 4.4rem;
+    font-size: 1.7rem;
+    margin: 0.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
+
+.clear {
+    background-color: #ff6666;
+    color: white;
+}
+
+.clear:hover {
+    background-color: #ff4d4d;
+}
+
+.Btn {
+    background-color: #4d94ff;
+    color: white;
+}
+
+.Btn:hover {
+    background-color: #3385ff;
+}
+
+.BtnEql {
+    background-color: #4dff4d;
+    color: white;
+}
+
+.BtnEql:hover {
+    background-color: #33ff33;
+}
